@@ -1,0 +1,271 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  color: #2D2D2D;
+  background-color: #F3F6FB;
+  line-height: 1.6;
+}
+
+a {
+  color: #0A66C2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2D2D2D;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 1.1em;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #0A66C2;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .navbar-brand .navbar-item {
+  color: #fff;
+  font-size: 1.75em;
+  font-weight: 700;
+}
+
+.navbar .navbar-burger {
+  display: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.navbar .navbar-menu {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .navbar-menu .navbar-item {
+  color: #fff;
+  margin-left: 25px;
+  font-size: 1em;
+}
+
+.navbar .navbar-menu .navbar-item i {
+  font-size: 1.5em;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+  .navbar .navbar-burger {
+    display: block;
+  }
+
+  .navbar .navbar-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar .navbar-menu.active {
+    display: flex;
+  }
+
+  .navbar .navbar-menu .navbar-item {
+    margin: 10px 0;
+  }
+}
+
+/* Hero Section */
+.hero {
+  background-color: #FFFFFF;
+  padding: 60px 20px;
+  text-align: center;
+  border-bottom: 1px solid #E1E9EE;
+}
+
+.hero .profile-image img {
+  width: 160px;
+  border-radius: 50%;
+  border: 4px solid #0A66C2;
+}
+
+.hero .title {
+  font-size: 2.8em;
+  margin: 25px 0 10px;
+  font-weight: 700;
+}
+
+.hero .subtitle {
+  font-size: 1.6em;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.hero p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.hero .button {
+  margin-top: 25px;
+  padding: 12px 25px;
+  background-color: #0A66C2;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 1em;
+  font-weight: 500;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.hero .button:hover {
+  background-color: #084D8C;
+}
+
+/* Section Styles */
+.section {
+  padding: 50px 30px;
+  margin: 50px auto;
+  max-width: 1000px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.section-title {
+  font-size: 2.2em;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 700;
+  color: #0A66C2;
+}
+
+/* Card Styles */
+.card {
+  background-color: #fff;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #E1E9EE;
+}
+
+.card:last-child {
+  border-bottom: none;
+}
+
+.card .card-content {
+  padding: 20px;
+}
+
+.card .media {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.card .media .media-image {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.card .media-content .job-title,
+.card .media-content .degree {
+  font-size: 1.6em;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.card .media-content .job-duration,
+.card .media-content .institution {
+  font-size: 1em;
+  color: #777;
+}
+
+.card .content p,
+.card .content ul {
+  margin-bottom: 15px;
+  font-size: 1.05em;
+  color: #444;
+}
+
+.card .content ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.card .content ul li {
+  margin-bottom: 8px;
+}
+
+/* Contact Section */
+.contact-icons {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contact-icons .icon {
+  margin: 0 20px;
+  font-size: 2.5em;
+  color: #0A66C2;
+  transition: color 0.3s;
+}
+
+.contact-icons .icon:hover {
+  color: #084D8C;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #0A66C2;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+/* Honors & Awards Section */
+#honors .degree {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #2D2D2D;
+}
+
+#honors .institution {
+  font-size: 1em;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+#honors p {
+  font-size: 1.1em;
+  color: #444;
+}
+/* Existing styles... (keep all the previous CSS) */
+
+/* Media Image Adjustments */
+.media .media-image {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+  border-radius: 8px;
+  object-fit: contain; /* Ensures logos fit within the image container */
+  background-color: #fff; /* Adds a white background for transparent logos */
+}
