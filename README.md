@@ -1,6 +1,6 @@
-# Evan Byrd's Professional Portfolio Website
+# My Professional Portfolio Website
 
-Welcome to the repository for **Evan Byrd's Professional Portfolio Website**. This project showcases the professional experience, education, certifications, and accomplishments of Evan Byrd, a Network Specialist with expertise in managing secure network systems and a member of the US Army Reserve.
+Welcome to the repository for **My Professional Portfolio Website**. This project showcases my professional experience, education, certifications, and accomplishments.
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@ Welcome to the repository for **Evan Byrd's Professional Portfolio Website**. Th
 
 ## About the Project
 
-This portfolio website is designed to highlight Evan Byrd's professional journey, skills, and accomplishments in a modern and sleek interface. It serves as a digital resume and a platform for networking with potential employers, collaborators, and industry peers.
+This portfolio website is designed to highlight my professional journey, skills, and accomplishments in a modern and sleek interface. It serves as a digital resume and a platform for networking with potential employers, collaborators, and industry peers.
 
 ### Built With
 
@@ -87,7 +87,7 @@ Follow these instructions to set up the project locally and get it running on yo
 
 ## Usage
 
-Feel free to explore the website to learn more about Evan's professional background. The navigation bar at the top allows you to jump to different sections of the page.
+Feel free to explore the website to learn more about my professional background. The navigation bar at the top allows you to jump to different sections of the page.
 
 ### Sections
 - **About Me**: Overview of professional expertise and passions.
